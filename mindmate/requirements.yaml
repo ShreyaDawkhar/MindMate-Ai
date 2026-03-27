@@ -1,0 +1,16 @@
+packages:
+  "framer-motion": "For fluid, complex animations of the interactive virtual character and page transitions"
+  "recharts": "For beautiful, responsive mood tracking charts and data visualization"
+  "date-fns": "For formatting dates and times in chat, mood logs, and community posts"
+  "clsx": "For conditional class names"
+  "tailwind-merge": "For merging tailwind classes"
+
+images:
+  - path: "artifacts/mindmate/public/images/hero-bg.png"
+    description: "A soft, calming abstract gradient background in pastel teal, lavender, and soft peach. Smooth, flowing, organic shapes. Minimalist and inviting, representing mental wellness and peace."
+    aspect_ratio: "16:9"
+
+notes:
+  - "Assuming React Query hooks are fully available in @workspace/api-client-react"
+  - "App uses a custom, soft, organic aesthetic with rounded corners and glassmorphism."
+  - "Using wouter for routing."

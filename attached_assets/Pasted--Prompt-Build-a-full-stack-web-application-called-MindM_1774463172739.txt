@@ -1,0 +1,266 @@
+## 🧠 Prompt:
+
+Build a full-stack web application called **“MindMate AI”**, an AI-powered mental health companion platform designed for youth. The app should provide emotional support, mood tracking, AI-driven conversations, and access to professional psychologists.
+
+The UI must be **clean, modern, minimal**, and calming, using a **mostly white background** with soft colors (light blue, lavender, teal). Text must be **dark, clear, and highly readable**. The design should feel like a **premium startup product**.
+
+---
+
+# 🎯 CORE IDEA
+
+Users can:
+
+* Share feelings through **text or voice**
+* Get **AI-based emotional understanding**
+* Track their mental health over time
+* Receive **personalized suggestions**
+* Connect with **real psychologists when needed**
+
+---
+
+# ⚙️ HOW THE SYSTEM WORKS
+
+**Flow:**
+
+User Input (text/voice)
+→ AI Emotion Analysis
+→ Mood Classification
+→ Data Storage
+→ Personalized Suggestions
+→ Continuous Tracking
+→ Escalation to Psychologist (if needed)
+
+---
+
+# 🧩 CORE FEATURES
+
+---
+
+## 1. Authentication & Onboarding
+
+* Signup/Login (email + anonymous mode)
+* Initial mental health questionnaire
+* User preference selection (stress, anxiety, focus, etc.)
+* Create a basic emotional profile
+
+---
+
+## 2. AI Chat Companion (Main Feature)
+
+* Chat interface (like ChatGPT)
+* Supports:
+
+  * Text input
+  * Voice input (speech-to-text)
+* AI responses:
+
+  * Supportive, empathetic, non-judgmental
+  * Context-aware (remembers previous chats)
+* Show detected emotion with each message
+
+---
+
+## 3. Emotion Detection System
+
+* Analyze text for sentiment
+* Detect:
+
+  * happy
+  * sad
+  * anxious
+  * stressed
+  * neutral
+* Show emotion label in UI
+* Track emotional intensity
+
+---
+
+## 4. Mood Tracking Dashboard
+
+* Daily mood logging (manual + automatic)
+* Weekly and monthly graphs
+* Emotional trend insights
+* Pattern detection (e.g., “stress peaks at night”)
+
+---
+
+## 5. Predictive Mental Health Analysis
+
+* Detect declining mood trends
+* Alert users when patterns look concerning
+* Suggest early intervention steps
+
+---
+
+## 6. Personalized Recommendation Engine
+
+* Suggest:
+
+  * breathing exercises
+  * meditation
+  * journaling prompts
+  * productivity routines
+* Recommendations based on:
+
+  * chat history
+  * mood data
+  * user preferences
+
+---
+
+## 7. Daily Wellness System
+
+* Auto-generated daily tasks
+* Habit tracking
+* Streak system for engagement
+
+---
+
+## 8. Crisis Detection System
+
+* Detect keywords like:
+
+  * “hopeless”
+  * “panic”
+  * “depressed”
+* Show:
+
+  * alert message
+  * helpline information
+* Suggest professional help immediately
+
+---
+
+## 9. Psychologist Connection Module
+
+* List of psychologists (mock data)
+* Smart matching based on:
+
+  * issue type
+  * language
+* Appointment booking UI
+* Video/chat consultation interface (basic UI)
+
+---
+
+## 10. Community Feature (Optional UI)
+
+* Anonymous posting
+* Simple feed layout
+* Safe and moderated environment
+
+---
+
+## 11. Settings & Privacy
+
+* Anonymous mode toggle
+* Delete chat history
+* Data control settings
+
+---
+
+# 🧠 PERSONALIZATION (IMPORTANT)
+
+* AI adapts to user behavior over time
+* Suggestions change dynamically
+* Supports different emotional needs
+* Handles different users differently
+
+---
+
+# 🏗️ TECH STACK
+
+### Frontend
+
+* React / Next.js
+* Tailwind CSS
+* Responsive design
+* Sidebar navigation
+
+---
+
+### Backend
+
+* Node.js / Express OR Next.js API routes
+* Database:
+
+  * MongoDB / Supabase / Firebase
+
+---
+
+### AI Integration
+
+* OpenAI API (or mock responses)
+* NLP-based sentiment detection
+* Rule-based fallback system
+
+---
+
+### Voice Features
+
+* Web Speech API for speech-to-text
+* SpeechSynthesis API for voice output
+
+---
+
+# 📱 APP STRUCTURE (PAGES)
+
+1. Landing Page
+2. Login / Signup
+3. Chat Page (Main screen)
+4. Mood Dashboard
+5. Recommendations Page
+6. Psychologist Booking Page
+7. Community Page
+8. Settings Page
+
+---
+
+# 🎨 UI/UX REQUIREMENTS
+
+* Clean, minimal design
+* Mostly white background
+* Soft calming colors (blue, purple, teal)
+* Rounded cards
+* Smooth animations
+* Use icons and small visuals
+* Avoid clutter
+* Focus on clarity and comfort
+
+---
+
+# 🔐 SECURITY & PRIVACY
+
+* Secure authentication
+* Encrypted data storage
+* User data control options
+
+---
+
+# 💰 MONETIZATION (OPTIONAL IMPLEMENTATION)
+
+* Freemium model:
+
+  * Free → basic features
+  * Paid → advanced insights & tools
+* Psychologist referral system
+
+---
+
+# 🚀 OUTPUT REQUIREMENTS
+
+* Full working code structure
+* Modular components
+* API routes
+* Clean UI
+* Responsive design
+* Easy to run locally
+
+---
+
+# 🔥 FINAL NOTE
+
+This application should feel like a **real-world startup product**, not just a demo.
+Focus on **user experience, clarity, and emotional connection**, not just features.
+
+---
